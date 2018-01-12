@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item><shape>
+    <stroke android:width="0.01dp"
+        android:color="#eeeeee"/>
+    <gradient
+        android:angle="360"
+        android:startColor="#fff"
+        android:endColor="#fff"/>
+</shape></item>
+<item>
+    <bitmap
+        android:gravity="center"
+        android:src="@mipmap/backspace_icon"
+
+        />
+</item>
+</layer-list>
