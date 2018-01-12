@@ -14,7 +14,6 @@
         android:background="@null"
         android:fontFamily="@font/cabin_condensed_regular"
         android:gravity="start"
-        android:maxLength="16"
         android:padding="10dp"
         android:textColor="#424242"
         android:textSize="30sp"

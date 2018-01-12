@@ -126,9 +126,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         EditText result = findViewById(R.id.result);
-        if (result.getText().length() > 17) {
-            return;
-        }
         int storedPosition;
         switch (v.getId()) {
             case R.id.button0:
@@ -292,7 +289,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 operationCompleted = false;
                 try {
                     MathEval m = new MathEval();
-                    expression = String.valueOf(m.evaluate(expression));
+                    double value = m.evaluate(expression);
+                    value = (double)Math.round(value * 100000000000d) / 100000000000d;
+                    expression = String.valueOf(value);
                     operationCompleted = true;
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), "Invalid operation", Toast.LENGTH_SHORT).show();
