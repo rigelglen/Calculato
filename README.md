@@ -5,6 +5,6 @@ Uses [MathEval](tech.dolhub.com/Code/MathEval) library for evaluation of string 
 
 ## Screenshots
 ### App Screen
-![App Screen](https://i.imgur.com/RJ8qNhm.png)
+![App Screen](https://i.imgur.com/RJ8qNhmm.png)
 ### Operation
-![Operation](https://i.imgur.com/WmJ0DyK.png)
+![Operation](https://i.imgur.com/WmJ0DyKm.png)
