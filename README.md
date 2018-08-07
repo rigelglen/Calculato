@@ -1,4 +1,8 @@
 # Calculato
+
+[![GitHub license](https://img.shields.io/github/license/rigelglen/Calculato.svg)](https://github.com/rigelglen/Calculato)
+![Java Android](https://img.shields.io/badge/Java-Android-green.svg)
+
 Simple calculator app
 
 Uses [MathEval](tech.dolhub.com/Code/MathEval) library for evaluation of string expressions. 
