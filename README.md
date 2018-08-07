@@ -1,6 +1,6 @@
 # Calculato
 
-[![GitHub license](https://img.shields.io/github/license/rigelglen/Calculato.svg)](https://github.com/rigelglen/Calculato)
+[![GitHub license](https://img.shields.io/github/license/rigelglen/Calculato.svg)](https://github.com/rigelglen/Calculato/blob/master/LICENSE)
 ![Java Android](https://img.shields.io/badge/Java-Android-green.svg)
 
 Simple calculator app
